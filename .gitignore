@@ -1,0 +1,44 @@
+# Root-level ignores (e.g., editor/OS files)
+*.log
+*.pyc
+*.pyo
+__pycache__/
+.env
+.env.*
+
+
+# === Backend (Django) ===
+backend/venv/
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.sqlite3
+backend/db.sqlite3
+backend/media/
+backend/staticfiles/
+backend/.env
+backend/.DS_Store
+backend/.pytest_cache/
+backend/*.log
+backend/migrations/**/__pycache__/
+backend/**/migrations/*.pyc
+backend/**/migrations/*.pyo
+backend/**/migrations/*.log
+
+# === Frontend (React) ===
+frontend/node_modules/
+frontend/.env
+frontend/.DS_Store
+frontend/build/
+frontend/dist/
+frontend/.parcel-cache/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.eslintcache
+frontend/.next/
+frontend/.turbo/
+frontend/.vite/
+
+# === OS-specific ===
+*.DS_Store
+Thumbs.db
